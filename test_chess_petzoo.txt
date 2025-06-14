@@ -1,0 +1,412 @@
+Resetting the environment for a new game (seed=42)...
+First board state:
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B N R
+
+--- Performing first observation check for 'player_0' ---
+
+ Obseervation for player_0
+ Observation tensor: (8, 8, 111)
+ Observation tensor dtype: bool
+min/max: 0.0
+ Action mask tensor: (4672,)
+ action mask dtype: int8
+number of legal moces : 20
+----------------------------------
+
+--- Performing first observation check for 'player_1' ---
+
+ Obseervation for player_1
+ Observation tensor: (8, 8, 111)
+ Observation tensor dtype: bool
+min/max: 0.0
+ Action mask tensor: (4672,)
+ action mask dtype: int8
+number of legal moces : 20
+----------------------------------
+
+--- After move 10 (played by player_1) ---
+r . b . k b n r
+. p p p . p p p
+p . . . p . . .
+. . . . . . P .
+. n P . . . . P
+. . . P . . . .
+P P . . P . P .
+R N B Q K B N R
+
+--- After move 20 (played by player_1) ---
+r . b k . b . r
+. p p p . p p .
+p . . . . n . .
+. . . . . . P p
+. n P . p . . P
+. . Q P . N . .
+P P . . P . P R
+R . B . K B N .
+
+--- After move 30 (played by player_1) ---
+r . b . . b . r
+. p n p . p p .
+p . . k . n . .
+. . p . . . P p
+. . P . P . P P
+. P . . . N . .
+P . Q K P . . R
+R . B . . B N .
+
+--- After move 40 (played by player_1) ---
+r . b . r . . .
+. p n p b p p .
+p . k . . . P .
+. . p . Q . . .
+. . P . n . p P
+. P . . . N . .
+P . . B P . . R
+R . . . K B N .
+
+--- After move 50 (played by player_1) ---
+r . b b r . . .
+. p n p . . p .
+p . k . . . P .
+. . . . p . N .
+. B P . n . p P
+. P . . . . . .
+P . . . P . . R
+R . . . K B . .
+
+--- After move 60 (played by player_1) ---
+r . b b . r . .
+. p n p . . p .
+p . . . n . P .
+. . k . p . N .
+. . P . . . . P
+. P . . . . p R
+P . . . P . B .
+R . . . K . . .
+
+--- After move 70 (played by player_1) ---
+r . b b r . . .
+. p n p . . p .
+p k . . n . P .
+. . N . . . . .
+. . P . p . . P
+. P . . . . p R
+P . R . P . B .
+. . . K . . . .
+
+--- After move 80 (played by player_1) ---
+. . b . r . . .
+r p n N . . p .
+p . k . . b P .
+. . . p . . . P
+. . P n p . . .
+. P . . . . p .
+P . . R P . . R
+. . . K . . . B
+
+--- After move 90 (played by player_1) ---
+. . . . . r . .
+r p n . . . p .
+p . k . . . P .
+. . . p b n . P
+. . P . . . . .
+. P . . p . p b
+P . . R P . B R
+. . . . . . K .
+
+--- After move 100 (played by player_1) ---
+. . . . r . . .
+r p n . . . p .
+p . k n . . P .
+. . P p b . . P
+. . . . . . . .
+P P . . p . p b
+. . R . P . B R
+. . . . . . K .
+
+--- After move 110 (played by player_1) ---
+r . . . . . . .
+. p n . r . p .
+p . k . . . P P
+. n P p b . . .
+. . . . . . . .
+P P . . p . p .
+R . . . P R B .
+. . . . . . K .
+
+--- After move 120 (played by player_1) ---
+. . . . . . N r
+. p . . r . . .
+p . . . . . P .
+. n k n . . . .
+. . . . . . . .
+P P . . p . . .
+. . . R P . p .
+b . . . . R K .
+
+--- After move 130 (played by player_1) ---
+k . . . . . . r
+. p n . . . . .
+p . N . . . P .
+. n . . b . . .
+. . . . . . . .
+P P . . p R . .
+. . R . P . p .
+. . . . . . K .
+
+--- After move 140 (played by player_1) ---
+. . k . . . . .
+. p n . . . . r
+p . . . . . P .
+. . . . . . . .
+. . N . . . . .
+P P n . p . b .
+. . R . P R p .
+. . . . . . K .
+
+--- After move 150 (played by player_1) ---
+. . . . n . R .
+. p k . . . . .
+p . . . . . P r
+N . . . . . . .
+. . . . . . . .
+P P n . p . . .
+. R . . P . K b
+. . . . . . . .
+
+--- After move 160 (played by player_1) ---
+. . . k n R . .
+. p . . . . P .
+p . . . . . r .
+N . . . . . . .
+. . . . . . . .
+P P . . p . . .
+. R . n P . . b
+. . . . . . . K
+
+--- After move 170 (played by player_1) ---
+. . N . R . . .
+. p k . . . P .
+p . . . . . . .
+. . . . b . . .
+. . . . . . . .
+P P . . p . . .
+. R . . P . . .
+. n . . . . . K
+
+--- After move 180 (played by player_1) ---
+. . N . . . . .
+. p . . R . P .
+p . . . . . . .
+. . . k . . . .
+. . n . . . . .
+. P . . p . . .
+. b R . P . K .
+. . . . . . . .
+
+--- After move 190 (played by player_1) ---
+. . . . . . . .
+N . . . . . P .
+p R . . . . . .
+. . . . n . . .
+. . . k . . . .
+. P . . p . . .
+. b . . P . K .
+. . . . . R . .
+
+--- After move 200 (played by player_1) ---
+. . N . R . . .
+. . . . . R . .
+p R . . . . . .
+. . . . . . . .
+. . . k . . . .
+. P . . p . . .
+. b . . P . K .
+. . . . . . . .
+
+--- After move 210 (played by player_1) ---
+. . . . R . . .
+. . R . . . . .
+p . . . . . . .
+. R . . . N . .
+. . . . . . . .
+. P . . p . . .
+. . . . P . K .
+. . b . k . . .
+
+--- After move 220 (played by player_1) ---
+. . . . . . . .
+. . . . N . . .
+p . . . . . . .
+. . . . . . . .
+. R . . . . R .
+. P . . p . . .
+. . k b . . K .
+. . . . . . . .
+
+--- After move 230 (played by player_1) ---
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+R . . . . N . .
+. . . . . . . .
+. P . . p . R .
+. k . b . . K .
+. . . . . . . .
+
+--- After move 240 (played by player_1) ---
+. . . . . . . .
+. . b . N . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . K
+. P . . p . R .
+. k . . . . . .
+. . . . . . . .
+
+--- After move 250 (played by player_1) ---
+. . . . . . . .
+N . . . . . . R
+. . . . . . . .
+. . . . . . K .
+. . . . . . . .
+. P . . p . . .
+. . k . . . . .
+. . . . . . . .
+
+--- After move 260 (played by player_1) ---
+. . N . . . . .
+. . . R . . . .
+. . . . . . K .
+. . . . . . . .
+. . . . . . . .
+. P . . . . . .
+. . . . p . . .
+. . k . . . . .
+
+--- After move 270 (played by player_1) ---
+. . N . . . . .
+. . . . . . . .
+. . . . . . K .
+b . . R . . . .
+. . . . . . . .
+. P . . . . . .
+. . . . . . . .
+. . k . . . . .
+
+--- After move 280 (played by player_1) ---
+. . N . . . K .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . R
+. . . . . . . .
+. P . . . . b .
+k . . . . . . .
+. . . . . . . .
+
+--- After move 290 (played by player_1) ---
+. . N . . . . .
+. . . . . . . K
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. k . . . . . .
+. . . . . . . R
+. . b . . . . .
+
+--- After move 300 (played by player_1) ---
+. . N . . . . .
+. . . . . . . .
+. . . . . . K .
+. . . . . . . .
+. . . R . . . .
+. . k . b . . .
+. . . . . . . .
+. . . . . . . .
+
+--- After move 310 (played by player_1) ---
+. . . . . . . .
+. . . . . . . .
+. . . N . K . b
+. . . . . . . .
+. R . . . . . .
+. . . . . . . .
+. . k . . . . .
+. . . . . . . .
+
+--- After move 320 (played by player_1) ---
+. . . . . . . .
+. . . . . . . .
+. R . . . . . .
+. N b . . . . .
+. . . . . K . .
+. . . . . . . .
+. . . . . . . .
+. . . k . . . .
+
+--- After move 330 (played by player_1) ---
+R . . . . . . .
+. . . . . . . .
+. b . . . . . .
+. . . . . . . .
+. . N . . K . .
+. . . . . . . .
+. . . . . . . .
+. . . . . k . .
+
+--- After move 340 (played by player_1) ---
+. . . . . R . .
+b . . . . . . .
+. . . . . . . .
+. . . . . K . .
+. . N . . . . .
+. . . . . . k .
+. . . . . . . .
+. . . . . . . .
+
+--- After move 350 (played by player_1) ---
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . K .
+. . . . . . . .
+b . R . N . k .
+. . . . . . . .
+. . . . . . . .
+
+--- After move 360 (played by player_1) ---
+. . . . . . . .
+. . . . . . . .
+. . . . . . . K
+. . . . . R . .
+. . . . . . . .
+. . . . . . . .
+. b N . . . . .
+. . . . . . k .
+
+--- After move 370 (played by player_1) ---
+. . . . . . . .
+b . . . . . K .
+. . . . . . . .
+. . . . . . . .
+. N . . . . . R
+. . . . . . . .
+. . . . . . . .
+. . . . . . k .
+
+--- After move 380 (played by player_1) ---
+. . . . . . . .
+. R . . . K . .
+N . . . . . . .
+. . . . . . . .
+. . . b . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . k . .
