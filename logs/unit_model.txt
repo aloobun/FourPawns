@@ -1,0 +1,36 @@
+Running on device: cuda
+
+Instantiating model with test configuration...
+Init
+ Output features: 16384
+ Loading llm: HuggingFaceTB/SmolLM2-135M...
+ LLM loaded. Hidden size: 576
+ All LLM weights have been frozen.
+ Bridge layer created.
+ Policy and Value 'tails' created.
+Model initialization complete.
+ Converting custom layers to torch.bfloat16
+Model init complete.
+
+Creating a dummy input tensor of shape: (4, 111, 8, 8)
+ Converting custom layers to torch.bfloat16
+Model init complete.
+
+Creating a dummy input tensor of shape: (4, 111, 8, 8)
+Performing a forward pass through the network...
+Forward pass successful.
+
+--- Verifying Output Shapes ---
+Policy Logits Shape: torch.Size([4, 4672]) (Expected: (4, 4672))
+  - Policy shape: Correct.
+Value Shape: torch.Size([4, 1]) (Expected: (4, 1))
+  - Value shape: Correct.
+
+--- Verifying Trainable Parameters ---
+Total Trainable Parameters: 18,293,697
+Total Frozen Parameters:    134,515,008
+  - Parameter freezing setup is correct.
+
+=============================================
+         Model Unit Test Passed!
+=============================================
